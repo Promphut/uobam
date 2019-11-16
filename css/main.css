@@ -4,6 +4,9 @@ h1,h2,h3,h4,p,a,button{
 p{
   line-height: 0.9;
 }
+.clear-padding{
+  padding: 0;
+}
 .underline{
   width: 250px;
   height: 4px;
@@ -22,6 +25,7 @@ p{
   height: 20px;
 }
 .main-btn{
+  color:#000 !important;
   font-size:28px;
   background: rgb(158,183,202);
   line-height: 1;
@@ -31,6 +35,11 @@ p{
   border:none;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  text-decoration: none;
+  display: inline-block;
+}
+.main-btn:hover{
+  text-decoration: none;
 }
 .second-btn{
   font-size:25px;
@@ -40,8 +49,13 @@ p{
   border-radius: 20px;
   border:none;
   font-weight: bold;
-  color: white;
+  color: white !important;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  text-decoration: none;
+  display: inline-block;
+}
+.second-btn:hover{
+  text-decoration: none;
 }
 .text{
   font-size: 28px;
@@ -85,7 +99,7 @@ p{
 .section-2{
   background: rgb(43,35,136);
   background: linear-gradient(90deg, rgba(43,35,136,1) 21.91%, rgba(35,31,114,1) 46.48%, rgba(5,17,33,1) 100%);
-  padding: 100px 0 80px;
+  padding: 90px 0 60px;
 }
 .s2-title{
   font-size: 100px;
@@ -97,19 +111,257 @@ p{
   text-align: center;
   color:white;
 }
+.section-2 .row{
+  padding-top: 30px; 
+}
+.section-2 .img-box{
+   position: relative;
+}
+.section-2 .img-box img{
+  position: relative;
+  z-index: 10;
+}
+.section-2 .img-box .border-img{
+  position: absolute;
+  top:30px;
+  right: -50px;
+  width: 80%; 
+  height: 50%;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-image: url(/images/section1/กรอบ.png);
+}
 .section-2 .s2-ul{
   list-style: none;
   padding-left: 0;
 }
+.section-2 .det-box{
+  padding-left: 50px;
+}
+.section-2 .det-box .small{
+  margin-left: 15px;
+  margin-top: 30px;
+}
 .section-2 .s2-ul .s2-li{
-  margin: 15px 0;
+  margin: 20px 0;
 }
 .section-2 .s2-ul .s2-li img{
   width: 50px;
   height: 50px;
-  margin: -20px 15px 0;
+  margin: -32px 15px 0;
 }
 .section-2 .s2-ul .s2-li p{
   display: inline-block;
   font-weight: bold;
+  font-size: 30px;
+}
+.section-2 .btn-container{
+  margin-top: 40px;
+}
+.section-2 .btn-container .btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 .btn-container .btn-box .main-btn{
+  margin: 0 15px;
+  padding: 0 30px;
+}
+
+.section-3{
+  padding: 80px 0 90px;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url(/images/section3/bg-1.png);
+}
+.section-3 .s3-title{
+  font-size: 120px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 0.8
+}
+.section-3 .number{
+  background-image: url(/images/section3/กรอบ.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 15px;
+  float: right;
+}
+.section-3 .number p{
+  text-align: center;
+}
+.section-3 .number p.big{
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 0.4;
+} 
+.section-3 .s2-ul{
+  list-style: none;
+  padding-left: 0;
+}
+.section-3 .s2-ul .s2-li{
+  margin: 30px 0;
+}
+.section-3 .s2-ul .s2-li img.icon{
+  width: 50px;
+  height: 50px;
+  margin: -34px 15px 0;
+}
+.section-3 .s2-ul .s2-li p{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-spec{
+  padding: 40px 0;
+  background-image: url(/images/section3.2/bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.section-spec h4{
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+}
+.play{
+}
+.play img{
+  width: 80px;
+  height: 80px;
+}
+.section-spec .between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.section-spec .between .main-btn{
+  margin-right: 15px;
+}
+.flex{
+  margin-top: 30px;
+  display: flex;
+}
+.flex-1{
+  margin-left: 15px;
+  min-width: 70px;
+}
+
+.section-4{
+  padding: 60px 0 90px;
+  background-image: url(/images/section4/bg.png);
+}
+
+
+.section-5{
+  padding: 80px 0;
+  background-color: rgb(43,35,136);
+background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74) 100%);
+  background-image: url(/images/section5/shadow-lightblue.png);
+  background-position-y: 0;
+  background-position-x: center;
+  background-size: cover;
+}
+.section-5 .video-box{
+  position: relative;
+  box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.3);
+  padding-bottom: 55%;
+}
+.section-5 .video-box iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.section-5 .text-box{
+  text-align: right;
+}
+.section-5 .text-box h3{
+  color:white;
+  font-size: 46px;
+  margin-top: 50px;
+}
+.section-5 .text-box  p{
+   margin-top: 50px;
+   font-size: 30px;
+}
+.section-5 .text-box  p .main-btn{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+.section-5 .text-box  p.sec{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.section-5 .text-box  p .second-btn{
+  padding: 8px 35px;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+.section-5-2{
+  padding: 60px 0;
+}
+.section-5-2 .title-section-content{
+  font-weight: bold;
+  font-size: 55px;
+}
+.section-5-2 .title-section-content img{
+  width: 70px;
+  height: 70px;
+  margin-top: -15px;
+}
+.section-5-2 .box{
+  width: 530px;
+  margin: 50px auto 0;
+}
+.section-5-2 .box .between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+.section-5-2 .box .main-btn{
+  padding: 6px 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.section-5-2 .box .full-width{
+  width: 100%;
+}
+.font-50{
+  font-size: 45px !important;
+}
+.footer-icon{
+  width: 50px;
+  height: 50px;
+}
+.footer-btn{
+  background: rgb(17,35,72);
+background: linear-gradient(90deg, rgba(17,35,72,1) 74%, rgba(30,73,127,1) 100%);
+border:none;
+font-size:28px;
+line-height: 1;
+padding: 5px 30px;
+border-radius: 20px;
+border:none;
+color: white !important;
+text-decoration: none;
+display: inline-block;
+}
+.footer-caution {
+  text-align: left;
+  margin-top: 15px;
+}
+.footer-caution .head{
+  font-size:28px;
+}
+.footer-caution .desc{
+  font-size:28px;
 }
