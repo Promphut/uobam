@@ -66,7 +66,7 @@ p{
 }
 .section-1{
   padding: 120px 0 20px;
-  background-image: url(/images/bg/uob-background-crop.png);
+  background-image: url(../images/bg/uob-background-crop.png);
   background-position: center;
   background-size: cover;
 }
@@ -132,7 +132,7 @@ p{
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
-  background-image: url(/images/section1/กรอบ.png);
+  background-image: url(../images/section1/กรอบ.png);
 }
 .section-2 .s2-ul{
   list-style: none;
@@ -175,7 +175,7 @@ p{
   padding: 80px 0 90px;
   background-position: bottom;
   background-size: cover;
-  background-image: url(/images/section3/bg-1.png);
+  background-image: url(../images/section3/bg-1.png);
 }
 .section-3 .s3-title{
   font-size: 120px;
@@ -184,7 +184,7 @@ p{
   line-height: 0.8
 }
 .section-3 .number{
-  background-image: url(/images/section3/กรอบ.png);
+  background-image: url(../images/section3/กรอบ.png);
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
@@ -220,7 +220,7 @@ p{
 
 .section-spec{
   padding: 40px 0;
-  background-image: url(/images/section3.2/bg.png);
+  background-image: url(../images/section3.2/bg.png);
   background-position: center;
   background-size: cover;
 }
@@ -254,7 +254,7 @@ p{
 
 .section-4{
   padding: 60px 0 90px;
-  background-image: url(/images/section4/bg.png);
+  background-image: url(../images/section4/bg.png);
 }
 
 
@@ -262,7 +262,7 @@ p{
   padding: 80px 0;
   background-color: rgb(43,35,136);
 background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74) 100%);
-  background-image: url(/images/section5/shadow-lightblue.png);
+  background-image: url(../images/section5/shadow-lightblue.png);
   background-position-y: 0;
   background-position-x: center;
   background-size: cover;
