@@ -1,8 +1,11 @@
 h1,h2,h3,h4,p,a,button{
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 p{
   line-height: 0.9;
+}
+.hidden-desktop{
+  display: none;
 }
 .clear-padding{
   padding: 0;
@@ -83,7 +86,7 @@ p{
   padding: 3px 20px 4px;
 }
 .section-1 .video{
-  padding-bottom: 55%;
+  padding-bottom: 56%;
   position: relative;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
 }
@@ -98,7 +101,7 @@ p{
 
 .section-2{
   background: rgb(43,35,136);
-  background: linear-gradient(90deg, rgba(43,35,136,1) 21.91%, rgba(35,31,114,1) 46.48%, rgba(5,17,33,1) 100%);
+  background: linear-gradient(90deg, rgba(43,35,136,1) 21.91%, rgba(35,31,114,1) 46.48%, rgba(5,17,33,0.2) 100%);
   padding: 90px 0 60px;
 }
 .s2-title{
