@@ -23,7 +23,8 @@
 - Element
 -------------------*/
 html, body {
-  background: #0F1E3F; }
+  background: #0F1E3F;
+}
 
 ul.cleargap {
   margin: 0;

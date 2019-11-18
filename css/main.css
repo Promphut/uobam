@@ -1,8 +1,12 @@
 h1,h2,h3,h4,p,a,button{
   /* letter-spacing: 1px; */
 }
+h1,h2,h3,h4{
+
+}
 p{
   line-height: 0.9;
+  font-family: 'Kittithada Medium 65 (  65)';
 }
 .hidden-desktop{
   display: none;
@@ -40,6 +44,7 @@ p{
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   text-decoration: none;
   display: inline-block;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
 .main-btn:hover{
   text-decoration: none;
@@ -56,6 +61,7 @@ p{
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   text-decoration: none;
   display: inline-block;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
 .second-btn:hover{
   text-decoration: none;
@@ -76,7 +82,30 @@ p{
 .s1-title{
   font-size:60px;
   line-height: 0.8;
+  /* font-weight: bold; */
+  font-family: 'Kittithada Medium 65 (  65)';
+}
+.section-1 .text>span{
+  font-family: 'Kittithada Medium 65 (  65)';
+}
+.section-1 .text{
+  font-family: 'Kittithada Bold 75 (  75)';
+}
+.section-1 .text small{
+  font-family: 'PSL Kittithada Pro ()';
   font-weight: bold;
+}
+.section-1 .text small span{
+  font-family: 'Kittithada Bold 75 (  75)';
+  font-weight: normal;
+}
+.section-1 .desc .small{
+  font-family: 'Kittithada Medium 65 (  65)';
+  font-weight: normal;
+}
+.section-1 .desc .small2{
+  font-family: 'Kittithada Medium 65 (  65)';
+  font-weight: normal;
 }
 .section-1 .main-btn{
   margin: 15px 0;
@@ -100,19 +129,25 @@ p{
 }
 
 .section-2{
-  background: rgb(43,35,136);
-  background: linear-gradient(90deg, rgba(43,35,136,1) 21.91%, rgba(35,31,114,1) 46.48%, rgba(5,17,33,0.2) 100%);
+  /* background: rgb(43,35,136); */
+  /* background: linear-gradient(90deg, rgba(43,35,136,1) 21.91%, rgba(35,31,114,1) 74.48%, rgba(15,47,92,1) 100%); */
+  background-image: url(../images/section1/bgsec2.png);
+  background-position: center;
+  background-size: cover;
   padding: 90px 0 60px;
 }
 .s2-title{
   font-size: 100px;
   text-align: center;
   font-weight: bold;
+  font-family: 'PSL Kittithada Pro ()';
 }
 .s2-subtitle{
   font-size: 54px;
   text-align: center;
   color:white;
+  font-weight: bold;
+  font-family: 'PSL Kittithada Pro ()';
 }
 .section-2 .row{
   padding-top: 30px; 
@@ -160,6 +195,7 @@ p{
   display: inline-block;
   font-weight: bold;
   font-size: 30px;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
 .section-2 .btn-container{
   margin-top: 40px;
@@ -182,9 +218,10 @@ p{
 }
 .section-3 .s3-title{
   font-size: 120px;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 5px;
-  line-height: 0.8
+  line-height: 0.8;
+  font-family: 'Agenda';
 }
 .section-3 .number{
   background-image: url(../images/section3/กรอบ.png);
@@ -200,7 +237,7 @@ p{
 }
 .section-3 .number p.big{
   font-size: 120px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 0.4;
 } 
 .section-3 .s2-ul{
@@ -217,8 +254,12 @@ p{
 }
 .section-3 .s2-ul .s2-li p{
   display: inline-block;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 30px;
+  font-family: 'Kittithada Bold 75 (  75)';
+}
+.section-3 .s2-ul .s2-li p small{
+  font-family: 'Kittithada Medium 65 (  65)';
 }
 
 .section-spec{
@@ -231,6 +272,7 @@ p{
   color: white;
   font-size: 32px;
   display: inline-block;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
 .play{
 }
@@ -253,7 +295,15 @@ p{
 .flex-1{
   margin-left: 15px;
   min-width: 70px;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
+.flex-2 p{
+  font-family: 'Kittithada Light 45 (  45)';
+}
+.flex-2 p span{
+  font-family: 'Kittithada Medium 65 (  65)';
+}
+
 
 .section-4{
   padding: 60px 0 90px;
@@ -287,10 +337,12 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
   color:white;
   font-size: 46px;
   margin-top: 50px;
+  font-family: 'Kittithada Bold 75 (  75)';
 }
 .section-5 .text-box  p{
    margin-top: 50px;
    font-size: 30px;
+   font-family: 'Kittithada Bold 75 (  75)';
 }
 .section-5 .text-box  p .main-btn{
   padding-left: 20px;
@@ -308,11 +360,14 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
   border-radius: 50px;
   margin-left: 15px;
 }
+.section-5 .text-box  p .second-btn small{
+  font-family: 'Kittithada Medium 65 (  65)';
+}
 .section-5-2{
   padding: 60px 0;
 }
 .section-5-2 .title-section-content{
-  font-weight: bold;
+  font-family: 'Kittithada Bold 75 (  75)';
   font-size: 55px;
 }
 .section-5-2 .title-section-content img{
