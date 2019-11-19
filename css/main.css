@@ -11,6 +11,9 @@ p{
 .hidden-desktop{
   display: none;
 }
+.hidden-mobile{
+  display:block;
+}
 .clear-padding{
   padding: 0;
 }
@@ -115,7 +118,7 @@ p{
   padding: 3px 20px 4px;
 }
 .section-1 .video{
-  padding-bottom: 56%;
+  padding-bottom: 56.3%;
   position: relative;
   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
 }
@@ -323,7 +326,7 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
 .section-5 .video-box{
   position: relative;
   box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.3);
-  padding-bottom: 55%;
+  padding-bottom: 56.2%;
 }
 .section-5 .video-box iframe{
   position: absolute;
@@ -399,7 +402,7 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
 .footer-icon{
   width: 50px;
   height: 50px;
-}
+} 
 .footer-btn{
   background: rgb(17,35,72);
 background: linear-gradient(90deg, rgba(17,35,72,1) 74%, rgba(30,73,127,1) 100%);

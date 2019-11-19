@@ -135,3 +135,12 @@ function move_to_section() {
 		}, 600);
 	});
 }
+
+function scrollToId(id){
+	var top = document.getElementById(id).offsetTop - 90
+	
+	window.scrollTo({
+		top: top,
+		behavior: 'smooth',
+	})
+}
