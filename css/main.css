@@ -185,6 +185,7 @@ p{
 .section-2 .det-box .small{
   margin-left: 15px;
   margin-top: 30px;
+  font-size: 24px;
 }
 .section-2 .s2-ul .s2-li{
   margin: 20px 0;
@@ -307,7 +308,7 @@ p{
   font-family: 'Kittithada Bold 75 (  75)';
 }
 .flex-2 p{
-  font-family: 'Kittithada Light 45 (  45)';
+  font-family: 'Kittithada Medium 65 (  65)';
 }
 .flex-2 p span{
   font-family: 'Kittithada Medium 65 (  65)';
@@ -430,5 +431,6 @@ display: inline-block;
   font-size:28px;
 }
 .footer-caution .desc{
-  font-size:28px;
+  font-size:26px;
+  font-weight: bold;
 }
