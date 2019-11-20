@@ -1,5 +1,14 @@
 $(document).ready(function () {
 	slider();
+	$("#open-modal1").click(function(){
+		$('#videoModal').modal('toggle');
+		stopVideo();
+	})
+	$("#open-modal2").click(function(){
+		$('#videoModal').modal('toggle');
+		stopVideo();
+	})
+
 });
 var window_size = window.innerWidth;
 $(window).on('load', function () {

@@ -226,7 +226,6 @@ p{
 .section-3 .s3-title{
   font-size: 120px;
   font-weight: normal;
-  letter-spacing: 5px;
   line-height: 0.8;
   font-family: 'Agenda';
 }
@@ -322,7 +321,7 @@ p{
 
 
 .section-5{
-  padding: 80px 0;
+  padding: 40px 0 90px;
   background-color: rgb(43,35,136);
 background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74) 100%);
   background-image: url(../images/section5/shadow-lightblue.png);
@@ -330,10 +329,46 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
   background-position-x: center;
   background-size: cover;
 }
+.s5-title{
+  font-size: 55px;
+  color:white;
+  text-align: center;
+  font-family: 'Kittithada Bold 75 (  75)';
+
+}
+.s5-title2{
+  font-size: 55px;
+  color:white;
+  text-align: center;
+  font-family: 'Kittithada Medium 65 (  65)';
+}
+.s5-title2-edit{
+  font-size: 55px;
+  color:white;
+  text-align: center;
+  font-family: 'Kittithada Medium 65 (  65)';
+  font-weight: normal;
+  margin: 40px 0;
+  line-height: 0.9;
+}
+.section-5 .subtitle {
+  text-align: center;
+  font-size: 42px;
+  margin: 20px 0;
+}
+.section-5 .row{
+  margin-top: 30px;
+}
+.section-5 .row .col-md-6:first-child{
+  border-right: 1px solid white;
+}
 .section-5 .video-box{
+  margin: 0px auto;
   position: relative;
-  box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.3);
-  padding-bottom: 56.2%;
+  width: 90%;
+  box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.2);
+  padding-bottom: 50.2%;
+  margin-top:30px;
 }
 .section-5 .video-box iframe{
   position: absolute;
@@ -341,19 +376,9 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
   height: 100%;
 }
 .section-5 .text-box{
-  text-align: right;
+  text-align: center;
 }
-.section-5 .text-box h3{
-  color:white;
-  font-size: 46px;
-  margin-top: 50px;
-  font-family: 'Kittithada Bold 75 (  75)';
-}
-.section-5 .text-box  p{
-   margin-top: 50px;
-   font-size: 30px;
-   font-family: 'Kittithada Bold 75 (  75)';
-}
+
 .section-5 .text-box  p .main-btn{
   padding-left: 20px;
   padding-right: 20px;
@@ -365,10 +390,11 @@ background-color: linear-gradient(90deg, rgba(43,35,136,1) 0%, rgba(5,17,33,0.74
   justify-content: flex-end;
   align-items: center;
 }
-.section-5 .text-box  p .second-btn{
-  padding: 8px 35px;
+.section-5 .text-box .second-btn{
+  font-size: 50px;
+  padding: 2px 50px;
   border-radius: 50px;
-  margin-left: 15px;
+  margin: 40px auto 0;
 }
 .section-5 .text-box  p .second-btn small{
   font-family: 'Kittithada Medium 65 (  65)';
