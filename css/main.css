@@ -116,9 +116,16 @@ body.modal-open {
 .section-1 .main-btn{
   margin: 15px 0;
 }
-.section-1 .second-btn{
-  margin: 5px 15px 0 0;
-  padding: 3px 20px 4px;
+.s1-btn-inner-box{
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+}
+.section-1 .s1-btn-inner-box .second-btn{
+  margin: 5px 0px 0 0;
+  padding: 3px 0px 4px;
+  text-align: center;
+  width: 47%;
 }
 .section-1 .video{
   padding-bottom: 56.3%;

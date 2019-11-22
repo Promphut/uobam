@@ -60,8 +60,11 @@
     margin: 0 auto;
   }
   .s1-btn-box .main-btn {
-    width: 100%;
+    width: 343px;
+    display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .s1-btn-inner-box {
     display: flex;
@@ -338,7 +341,7 @@
   }
   .section-5-2 .box .main-btn{
       font-size: 20px;
-      padding: 6px 30px;
+      padding: 6px 20px;
       width: 48%;
   }
   .section-5-2 .box .full-width{
@@ -377,6 +380,13 @@
   .footer-page-ltf .title-footer{
       font-size: 24px;
   }
+  .s1-btn-inner-box {
+      margin-left: auto;
+      margin-right: auto;
+    width: 343px;
+  display: flex;
+  justify-content: space-between;
+}
   .s1-btn-inner-box .second-btn:first-child{
     width: 51%;
   }
@@ -396,6 +406,7 @@
         text-align: center;
       }
       .s1-btn-inner-box {
+          width: 100%;
         display: flex;
         justify-content: space-between;
       }
@@ -457,6 +468,9 @@
       }
       .s1-btn-inner-box .second-btn:last-child{
         width: 46%;
+    }
+    .section-2 .det-box .small{
+        font-size: 90%;
     }
 
 }
