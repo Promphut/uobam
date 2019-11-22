@@ -438,9 +438,17 @@
       .section-5-2 .box{
           width: 100%;
       }
-      .section-5-2 .box .main-btn{
-          padding: 4px 20px;
+      .section-5-2 .box .main-btn:first-child{
+          padding: 4px 0px;
+          width: 43%;
       }
+      .section-5-2 .box .main-btn:nth-child(2){
+        padding: 4px 0px;
+        width: 53%;
+    }
+    .section-5-2 .box .full-width{
+        width: 100% !important;
+    }
       .footer-page-ltf .sub-title-footer .item-sub-title .desc{
           font-size: 18px;
       }
