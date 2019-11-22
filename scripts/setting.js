@@ -8,7 +8,6 @@ $(document).ready(function () {
 		$('#videoModal').modal('toggle');
 		stopVideo();
 	})
-
 });
 var window_size = window.innerWidth;
 $(window).on('load', function () {
@@ -147,9 +146,11 @@ function move_to_section() {
 
 function scrollToId(id){
 	var top = document.getElementById(id).offsetTop - 90
-	
-	window.scrollTo({
-		top: top,
-		behavior: 'smooth',
-	})
+	$('html, body').stop().animate({
+		'scrollTop': top
+	}, 600);
+	// window.scrollTo({
+	// 	top: top,
+	// 	behavior: 'smooth',
+	// })
 }

@@ -501,9 +501,9 @@
         <div class="col-md-6 col-sm-12 s1-col1">
           <h2 class="s1-title">เพราะการออม<br>ต้องใช้เวลา</h2>
           <hr class="underline">
-          <p class="text"><b><span>รับฟรี!</span> ของสมนาคุณมูลค่า 100 บาท*</b><br><small>เมื่อลงทุนในกลุ่มกองทุน
+          <p class="text"><b><span>รับฟรี!</span> ของสมนาคุณมูลค่า 100 บาท</b><br><small>เมื่อลงทุนในกลุ่มกองทุน
               LTF/RMF <span>ทุกๆ 50,000
-                บาท</span></small></p>
+                บาท*</span></small></p>
           <p class="text">โอกาสพิเศษสำหรับการลงทุนในกองทุน LTF <br>ที่ได้สิทธิลดหย่อนภาษีปีสุดท้าย</p>
           <div class="s1-btn-box">
             <a class="main-btn" href="https://www.uobam.co.th/th/fund-type/5/long-term-equity"
@@ -635,7 +635,7 @@
     <div class="container">
       <div class="between">
         <div class="play-box">
-          <a  href="#" id="open-modal1" class="play">
+          <a href="javascript:" id="open-modal1" class="play">
             <img src="images/section3.2/play.png" alt="">
           </a>
           <h4>ประสบการณ์จากผู้ลงทุน</h4>
@@ -710,7 +710,7 @@
     <div class="container">
       <div class="between">
         <div class="play-box">
-          <a  href="#" id="open-modal2" class="play">
+          <a href="javascript:" id="open-modal2" class="play">
             <img src="images/section3.2/play.png" alt="">
           </a>
           <h4>ประสบการณ์จากผู้ลงทุน</h4>
@@ -850,56 +850,55 @@
     </div>
   </footer>
   <!-- Modal -->
-  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
       <div class="modal-content" id="player">
         <!-- <iframe  width="560" height="315" src="https://www.youtube.com/embed/EzpuPypcJ7c?version=3&loop=1&playlist=EzpuPypcJ7c&modestbranding=0" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>
     </div>
-  </div>
+  </div>Î
   <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
+    // 2. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '430',
-          width: '620',
-          videoId: 'EzpuPypcJ7c',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        height: '430',
+        width: '620',
+        videoId: 'EzpuPypcJ7c',
+        events: {
+          'onReady': onPlayerReady,
+          'onStateChange': onPlayerStateChange
         }
+      });
+    }
+
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
+      event.target.playVideo();
+    }
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    var done = false;
+    function onPlayerStateChange(event) {
+      if (event.data == YT.PlayerState.PLAYING && !done) {
+        setTimeout(stopVideo, 6000);
+        done = true;
       }
-      function stopVideo() {
-        player.stopVideo();
-      }
+    }
+    function stopVideo() {
+      player.stopVideo();
+    }
   </script>
   <script src="scripts/jquery-3.3.1.min.js"></script>
   <script src="scripts/scroll-animation.js" defer="defer"></script>

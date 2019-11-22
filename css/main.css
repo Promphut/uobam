@@ -8,6 +8,9 @@ p{
   line-height: 0.9;
   font-family: 'Kittithada Medium 65 (  65)';
 }
+body.modal-open {
+  overflow: visible;
+}
 .hidden-desktop{
   display: none;
 }

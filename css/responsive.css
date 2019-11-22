@@ -69,8 +69,8 @@
   }
   .s1-btn-inner-box .second-btn {
     margin-right: 0;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .section-2 {
@@ -148,6 +148,7 @@
       margin: 0;
       padding-top: 5px;
       padding-bottom: 5px;
+      width: 48%;
   }
 
   .section-3{
@@ -274,6 +275,7 @@
     font-size: 14px;
     font-weight: normal;
     font-family: 'Kittithada Medium 65 (  65)';
+    display: inline;
   }
   .section-5 .s5-title2-edit small{
     font-size: 14px;
@@ -337,6 +339,10 @@
   .section-5-2 .box .main-btn{
       font-size: 20px;
       padding: 6px 30px;
+      width: 48%;
+  }
+  .section-5-2 .box .full-width{
+      width: 100%;
   }
   .section-5-2 .box .between{
       margin: 15px 0;
@@ -371,6 +377,12 @@
   .footer-page-ltf .title-footer{
       font-size: 24px;
   }
+  .s1-btn-inner-box .second-btn:first-child{
+    width: 51%;
+  }
+  .s1-btn-inner-box .second-btn:last-child{
+    width: 46%;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -432,6 +444,13 @@
       .footer-page-ltf .sub-title-footer .item-sub-title .desc{
           font-size: 18px;
       }
+      .s1-btn-inner-box .second-btn:first-child{
+        width: 51%;
+      }
+      .s1-btn-inner-box .second-btn:last-child{
+        width: 46%;
+    }
+
 }
 
 @media (max-width: 991.98px) {
